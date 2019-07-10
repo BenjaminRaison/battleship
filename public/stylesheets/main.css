@@ -1,5 +1,12 @@
 body {
-  font-family: sans-serif;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    padding: 5px;
+    background: teal;
 }
 .board {
     border-collapse: collapse;
@@ -66,5 +73,5 @@ body {
 }
 
 #endGameResult {
-  font-size: 24px;
+    font-size: 24px;
 }
